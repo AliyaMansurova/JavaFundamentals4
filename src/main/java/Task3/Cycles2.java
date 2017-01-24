@@ -1,7 +1,7 @@
 package Task3;
-        import java.util.Scanner;
+import java.util.Scanner;
 /**
- * created by Aliya Mansurova
+ * Created by User on 29.12.2016.
  */
 public class Cycles2 {
     public static void main(String[] args) {
@@ -25,8 +25,8 @@ public class Cycles2 {
             }
         }
     }
-    private static double Function(double x) {
+private static double Function(double x) {
 
         return( Math.tan(Math.toRadians(2*x))-3);
-    }
+     }
 }

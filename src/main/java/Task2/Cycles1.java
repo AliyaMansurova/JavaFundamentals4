@@ -1,7 +1,7 @@
 package Task2;
 import java.util.Scanner;
 /**
- *created by Aliya Mansurova
+ * Created by User on 29.12.2016.
  */
 public class Cycles1 {
 

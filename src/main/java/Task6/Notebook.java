@@ -2,7 +2,7 @@ package Task6;
 import java.util.ArrayList;
 import java.util.List;
 /**
- * created by Aliya Mansurova
+ * Created by User on 29.12.2016.
  */
 public class Notebook {
     List<Entry> records=new ArrayList<Entry>();
@@ -25,8 +25,7 @@ public class Notebook {
     public Notebook(List<Entry> records) {
         this.records = records;
     }
-    /**
-     * Adds an entry in the notebook*/
+    /**Adds an entry in the notebook*/
     public void addEntry(String mark) {
         Entry record = new Entry(mark);
         this.records.add(record);
